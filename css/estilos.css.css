@@ -1,0 +1,94 @@
+/* soft reset do css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: dimgray;
+  background-size: auto 100vh; 
+  font-family: 'Source Code Pro', monospace;
+  height: 100vh;
+  font-size: 17px;
+}
+
+header {
+  height: 40vh;
+  background-color: rgb(109, 110, 119);
+  justify-content: center;
+  align-items: center;
+  padding-top: 3em;
+  }
+
+.menu {
+  background-color: darkred;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li {
+ list-style: none; 
+}
+
+.menu a {
+  
+  display: block;
+  padding: 10px 20px;
+}
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-subtitle, 
+.site-title {
+  text-shadow: darkslategray 9px 7px 10px ;
+  color: darkred;
+  text-align: center;
+  }
+
+.site-title {
+  font-size: 4em;
+  font-family: 'Amita', cursive;
+  line-height: 2.5em ;
+  
+}
+
+.site-subtitle {
+  font-family: 'Playfair Display', serif;
+}
+
+.portifolio h2{
+  font-family: 'Playfair Display', serif;
+  color: ghostwhite ;
+  padding: 1.5em;
+}
+.portifolio .grid{
+  display: grid;
+  gap: 2em;
+  grid-template-columns: 380px 380px;
+  justify-content: center;
+  }
+
+.portifolio figure{
+  text-align: center;
+}
+
+.img-portfolio {
+  height: 270px;
+  width: 380px;
+  padding: 2em;
+}
+
